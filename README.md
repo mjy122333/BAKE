@@ -1,5 +1,5 @@
 # BAKE
-This is the repository for our paper: Untying the Reversal Curse via Bidirectional Language Model Editing ([arxiv](https://arxiv.org/pdf/2310.10322.pdf)).
+This is the repository for our paper: Untying the Reversal Curse via Bidirectional Language Model Editing.
 
 ## Overview
 **Model editing** aims to adjust an initial base model's $(f_\theta)$ behavior($x_e \rightarrow y_e$) on the particular edit descriptor $[x_e, y_e]$ efficiently.
@@ -39,7 +39,6 @@ You can download these datasets here. [[Google Drive]](https://drive.google.com/
 To get started, simply install conda and run:
 
 ```shell
-git clone https://github.com/mjy1111/BAKE.git
 conda create -n BAKE python=3.9.7
 ...
 pip install -r requirements.txt
@@ -104,24 +103,6 @@ Run:
 python trainer.py
 ```
 You can also download these weights here. [[Google Drive]](https://drive.google.com/file/d/1o9uJUEXExda5M-kyvvyFZ3yAC9tmW9gx/view?usp=drive_link).
-
-## Citation
-If you use this code and dataset, please cite our paper:
-```bibtex
-@article{DBLP:journals/corr/abs-2310-10322,
-  author       = {Jun{-}Yu Ma and
-                  Jia{-}Chen Gu and
-                  Zhen{-}Hua Ling and
-                  Quan Liu and
-                  Cong Liu},
-  title        = {Untying the Reversal Curse via Bidirectional Language Model Editing},
-  journal      = {CoRR},
-  year         = {2023},
-  url          = {https://doi.org/10.48550/arXiv.2310.10322},
-}
-```
-### Questions?
-If you have any questions related to the repository or the paper, or you encounter any problems when using the datasets/code, feel free to email Junyu Ma `(mjy1999@mail.ustc.edu.cn)` or open an issue!
 
 
 ### Related Projects
